@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ureaddir": "file:../../"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.20",
+    "typescript": "^2.4.2"
+  },
+  "scripts": {
+    "start": "tsc && node compiled/src/index.js"
+  }
+}
