@@ -6,7 +6,7 @@ given directory.
 A pitfall for reading the contents of files in a directory is awaiting I/O one
 by one per file, when all files could be read simultaneously and collected.
 
-### Instllation
+### Installation
 
 If you're using yarn,
 
