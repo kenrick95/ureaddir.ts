@@ -23,7 +23,9 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"

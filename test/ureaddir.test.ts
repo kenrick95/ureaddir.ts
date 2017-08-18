@@ -1,4 +1,4 @@
-import {readdir, ReadingOptions} from "../src";
+import { readdir, ReadingOptions } from "../src";
 
 describe("readdir result", () => {
   const absolutePath = `${__dirname}/testdir`;

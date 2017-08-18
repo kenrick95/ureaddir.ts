@@ -67,7 +67,7 @@ export interface ReadingOptions {
  * the files to read.
  * @returns An object mapping the filepaths to Buffers of their contents.
  */
-export async function readdir(absolutePath: string, options?: ReadingOptions): Promise<{[key: string]: Buffer}> {
+export async function readdir(absolutePath: string, options?: ReadingOptions): Promise<{ [key: string]: Buffer }> {
   if (!options) {
     options = {};
   }
@@ -108,7 +108,7 @@ export async function readdir(absolutePath: string, options?: ReadingOptions): P
 
   const fileContents = await Promise.all(promises);
 
-  const mapped: {[key: string]: Buffer} = {};
+  const mapped: { [key: string]: Buffer } = {};
 
   for (const [filepath, content] of fileContents) {
     mapped[filepath] = content;
