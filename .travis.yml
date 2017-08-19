@@ -11,6 +11,6 @@ notifications:
 node_js:
   - stable
 before_script:
-  - yarn prune && yarn cache clean
+  - yarn install
 script:
   - yarn run test
