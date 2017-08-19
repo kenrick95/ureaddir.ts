@@ -1,3 +1,5 @@
+[![ci-badge][]][ci] [![docs-badge][]][docs]
+
 # ureaddir.ts
 
 ureaddir is a tiny and efficient library for reading the contents of files in a
@@ -44,4 +46,8 @@ async function main() {
 
 ISC. The license can be read [here][license].
 
+[ci]: https://travis-ci.org/zeyla/ureaddir.ts
+[ci-badge]: https://travis-ci.org/zeyla/ureaddir.ts.svg?branch=master
+[docs]: https://zeyla.github.io/ureaddir.ts
+[docs-badge]: https://img.shields.io/badge/docs-online-5023dd.svg
 [license]: https://github.com/zeyla/ureaddir.ts/blob/master/LICENSE.md
