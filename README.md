@@ -13,7 +13,7 @@ by one per file, when all files could be read simultaneously and collected.
 If you're using yarn,
 
 ```sh
-$ yarn add https://github.com/zeyla/ureaddir.ts --save
+$ yarn add https://github.com/zeyla/ureaddir.ts
 ```
 
 If using npm,
